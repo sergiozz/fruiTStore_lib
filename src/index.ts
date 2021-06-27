@@ -1,1 +1,3 @@
-export const Greeter = (name: string) => `Hola Mundo soy ${name}`;
+export function sum(a: number, b: number): number {
+    return a + b;
+}

@@ -1,4 +1,4 @@
-import { Greeter } from '../index';
-test('My Greeter', () => {
-  expect(Greeter('Carl')).toBe('Hola Mundo soy Carl');
+import { sum } from '../index';
+test('Test', () => {
+  expect(sum(2,4)).toBe(6);
 });

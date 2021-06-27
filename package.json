@@ -1,5 +1,5 @@
 {
-  "name": "fruiTStore_lib",
+  "name": "fruitstore_lib",
   "version": "1.0.0",
   "description": "libreria prototipo para fruiTStore",
   "main": "lib/index.js",
@@ -8,19 +8,21 @@
     "test": "jest --config jestconfig.json",
     "build": "tsc",
     "lint": "eslint . --ext .ts",
-
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
-
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sergiozz/fruiTStore_lib.git"
   },
-  "keywords": ["TS", "lib", "fruiTStore"],
+  "keywords": [
+    "TS",
+    "lib",
+    "fruiTStore"
+  ],
   "author": "Zeta",
   "license": "ISC",
   "bugs": {
