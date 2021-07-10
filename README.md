@@ -25,7 +25,19 @@ let resultado = MyLib.calculoComplejo([
         { precio: 10, cantidad: 4 },
     ])
 
+---
+
+let resultado = MyLib.calculoEspecialCombo([
+    { item: p1, cantidad: 1 },
+    { item: p2, cantidad: 3 },
+    { item: p3, cantidad: 2 },
+  ]) // px son Productos
+
+---
+
 pedido : MyLib.Pedido
+
+---
 
 producto = new MyLib.Producto()
 ```
