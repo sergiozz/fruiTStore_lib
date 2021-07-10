@@ -25,6 +25,11 @@ let resultado = MyLib.calculoComplejo([
         { precio: 10, cantidad: 4 },
     ])
 
+let resultado = MyLib.calculoComplejo([
+        { precio: 8.65, cantidad: 1 },
+        { precio: 0, cantidad: 2 },
+    ], true) // permite calculos con productos gratis
+
 ---
 
 let resultado = MyLib.calculoEspecialCombo([
