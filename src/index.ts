@@ -15,6 +15,10 @@ export enum ErrorLevel {
     OK,
 }
 
+export function calculoNuevo( valor:number ): number  {
+    return valor * 103.698;
+}
+
 export function calculoComplejo( itemArray: Array<item>, freePutridFruit = false  ): number | ErrorLevel {
     let sum = 0;
     for(const a of itemArray){
