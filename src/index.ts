@@ -14,12 +14,12 @@ export enum ErrorLevel {
     ERROR,
     OK,
 }
-  
-export function calculoComplejo( itemArray: Array<item>, freePutrid = false  ): number | ErrorLevel {
+
+export function calculoComplejo( itemArray: Array<item>, freePutridFruit = false  ): number | ErrorLevel {
     let sum = 0;
     for(const a of itemArray){
         if (a.precio < 0 || a.cantidad <= 0) return ErrorLevel.ERROR;
-        if (a.precio == 0 && !freePutrid) return ErrorLevel.WARN;
+        if (a.precio == 0 && !freePutridFruit) return ErrorLevel.WARN;
         sum +=  (a.precio * a.cantidad);
     }
 

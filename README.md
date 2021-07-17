@@ -1,12 +1,6 @@
 # fruiTStore_lib
 libreria prototipo para fruiTStore
 
-# run test lib
-npm test
-
-# publish lib
-npm publish
-
 ## Install
 
 ```bash
@@ -29,6 +23,10 @@ let resultado = MyLib.calculoComplejo([
         { precio: 8.65, cantidad: 1 },
         { precio: 0, cantidad: 2 },
     ], true) // permite calculos con productos gratis
+
+
+si resultado es -1 es que hay un error en la cantidad
+si resultado es -2 es que el precio es 0 de almenos un item
 
 ---
 
